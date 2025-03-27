@@ -68,7 +68,7 @@ const UsersList = ({ users, setUsers }) => {
 
     return (
         <section className='bg-black'>
-            <div className='p-5 max-w-4xl mx-auto bg-black'>
+            <div className='p-5 max-w-4xl mx-auto'>
                 <h1 className='text-2xl text-white font-extrabold text-center mb-4'>
                     Users List
                 </h1>
@@ -93,7 +93,7 @@ const UsersList = ({ users, setUsers }) => {
                                 <img
                                     src={user.avatar}
                                     alt={user.first_name}
-                                    className='w-16 h-16 rounded-full mb-2'
+                                    className='w-16 h-16 rounded-full mb-2 object-cover'
                                 />
                                 <p className='font-semibold'>
                                     {user.first_name} {user.last_name}

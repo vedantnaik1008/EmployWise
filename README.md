@@ -26,6 +26,9 @@ cd vite-project npm install
 3. Start the development server:
 npm start
 
+## Hosted Link
+hosted link https://employ-wise-iota.vercel.app/
+
 ## 🖥️ API Endpoints
 - **Login**: `POST /api/login`
 - **Fetch Users**: `GET /api/users?page=1`
