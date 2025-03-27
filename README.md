@@ -1,12 +1,44 @@
-# React + Vite
+# React User Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app to manage users with login, pagination, edit, and delete functionality.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Login authentication
+- Fetch and display users (pagination)
+- Edit and update users
+- Delete users
+- API error handling
+- Form validation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React.js
+- Axios (API calls)
+- React Router
+- Tailwind CSS (Styling)
 
-## Expanding the ESLint configuration
+## 📌 Installation
+1. Clone the repository:
+git clone https://github.com/vedantnaik1008/EmployWise.git
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies:
+cd vite-project npm install
+
+3. Start the development server:
+npm start
+
+## 🖥️ API Endpoints
+- **Login**: `POST /api/login`
+- **Fetch Users**: `GET /api/users?page=1`
+- **Edit User**: `PUT /api/users/{id}`
+- **Delete User**: `DELETE /api/users/{id}`
+
+## 🔥 Assumptions
+- Uses `https://reqres.in/` as a mock API.
+- Login requires:
+- Email: `eve.holt@reqres.in`
+- Password: `cityslicka`
+
+## 📌 Considerations
+- API error messages are displayed properly.
+- User-friendly form validation is implemented.
+- Pagination is handled dynamically.
